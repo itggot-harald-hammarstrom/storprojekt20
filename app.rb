@@ -8,5 +8,5 @@ get("/") do
 end
 
 get("/home") do
-
+    slim(:index)
 end
