@@ -7,6 +7,10 @@ get("/") do
     slim(:index)
 end
 
-get("/home") do
+get("/Home") do
     slim(:index)
+end
+
+get("/Login") do
+    slim(:Login)
 end
