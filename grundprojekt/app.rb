@@ -17,7 +17,7 @@ end
 
 #Visa formulär som lägger till en note
 get('/notes/new') do
-  slim(:"notiser/new")
+  slim(:"notes/new")
 end
 
 
